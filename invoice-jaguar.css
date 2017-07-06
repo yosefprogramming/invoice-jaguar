@@ -1,0 +1,81 @@
+
+.header{
+	background-color: lightgrey;
+}
+ body {
+      margin: 0;
+      padding: 0;
+    }
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+  display: block;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+.message, .header{
+	padding-left: 20px; 	
+	padding-right: 20px; 
+ }
+ .intro{
+ 	background-color: lightgrey;
+ }
+ .info{
+ 	padding-left: 20px;
+ 	background-color: lightgrey;
+ 	padding-bottom: 25px;
+ 	padding-top: 5px;
+ 	font-family: verdana;
+ }
+  .info ul{
+ 	list-style-image: url('checkbox.png');
+ 	font-size:20px;
+ 	font-weight: bold;
+ }
+ .image{
+ 	float:right;
+ 	text-align: right;
+ }
+/*Media query for big screens*/
+ @media screen and (min-width: 600px) {
+ 	.content{
+		min-width: 1020px;
+	}
+	.message, .header{
+	padding-left: 100px; 	
+	padding-right: 100px; 
+ }
+  .nav li {
+    width: 200px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    display: inline-block;
+  }
+  }

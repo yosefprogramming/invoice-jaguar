@@ -1,0 +1,26 @@
+body{
+	background-color: lightgrey;
+}
+.template{
+	background-color: white;
+	margin: auto;
+	padding: 25px;
+}
+.button{
+	background-color: lightgrey;
+	padding: 40px 20px;
+	width:150px;
+}
+.button:hover {
+  background-color:grey;
+}
+.from{
+	padding-top: 15px;
+}
+.from textarea{
+	resize: none;
+	width:275px;
+	height:94px;
+	font-size: 14px;
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
